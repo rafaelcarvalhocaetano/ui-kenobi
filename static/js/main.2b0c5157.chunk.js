@@ -1,2 +1,0 @@
-(this["webpackJsonpui-kenobi-example"]=this["webpackJsonpui-kenobi-example"]||[]).push([[0],{2:function(e,n,t){e.exports=t(9)},9:function(e,n,t){"use strict";t.r(n);var a=t(0),o=t.n(a),r=t(1),u=function(){return o.a.createElement("h1",null,"aaa")};t.n(r).a.render(o.a.createElement(u,null),document.getElementById("root"))}},[[2,1,2]]]);
-//# sourceMappingURL=main.2b0c5157.chunk.js.map
