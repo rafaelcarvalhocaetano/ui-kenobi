@@ -1,9 +1,8 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './example/App';
 
-
-const TComponent = () => {
-  return (
-    <h1>T Component</h1>
-  )
-}
-export default TComponent;
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
