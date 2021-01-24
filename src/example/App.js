@@ -1,5 +1,6 @@
 import React from 'react';
-import { KButton } from '../lib';
+import KButton from '../lib/componets/KButton';
+
 
 const App = () => {
   return (
@@ -7,4 +8,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
