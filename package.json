@@ -15,7 +15,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,cjs",
+    "build": "npm run copyfile && rollup -c",
     "start": "npm run copyfile && rollup -c -w",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
@@ -26,7 +26,6 @@
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build",
     "flow:copy-source": "node scripts/flow-copy-source.js",
-    "format": "prettier --write \"+(src|example)/**/*.js\"",
     "copyfile": "shx mkdir -p dist && shx cp -r src/icons dist/"
   },
   "peerDependencies": {
