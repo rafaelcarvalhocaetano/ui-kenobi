@@ -13,7 +13,8 @@
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "file:../node_modules/react-scripts",
-    "ui-keb": "file:.."
+    "ui-keb": "file:..",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
