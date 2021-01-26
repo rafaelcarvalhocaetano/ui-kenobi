@@ -5,7 +5,7 @@ import { Buttonfill } from 'uikenobi';
 const Buttons = () => {
   return (
     <div>
-      <Buttonfill fill disabled />
+      <Buttonfill fill giant />
       <Buttonfill gost disabled />
     </div>
   )
