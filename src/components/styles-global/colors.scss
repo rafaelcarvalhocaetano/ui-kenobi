@@ -1,0 +1,74 @@
+:root {
+  --primary: #6574CF;
+  --primary-rgb: 101,116,207;
+  --primary-contrast: #ffffff;
+  --primary-contrast-rgb: 255,255,255;
+  --primary-shade: #5966b6;
+  --primary-tint: #7482d4;
+
+  --primary-hover-button: #8B98E2;
+  --primary-active-button: #4957B2;
+
+  --secondary: #00A5FF;
+  --secondary-rgb: 0,165,255;
+  --secondary-contrast: #ffffff;
+  --secondary-contrast-rgb: 255,255,255;
+  --secondary-shade: #0091e0;
+  --secondary-tint: #1aaeff;
+
+  --tertiary: #5260ff;
+  --tertiary-rgb: 82,96,255;
+  --tertiary-contrast: #ffffff;
+  --tertiary-contrast-rgb: 255,255,255;
+  --tertiary-shade: #4854e0;
+  --tertiary-tint: #6370ff;
+
+  --success: #2dd36f;
+  --success-rgb: 45,211,111;
+  --success-contrast: #ffffff;
+  --success-contrast-rgb: 255,255,255;
+  --success-shade: #28ba62;
+  --success-tint: #42d77d;
+
+  --warning: #ffc409;
+  --warning-rgb: 255,196,9;
+  --warning-contrast: #000000;
+  --warning-contrast-rgb: 0,0,0;
+  --warning-shade: #e0ac08;
+  --warning-tint: #ffca22;
+
+  --danger: #FF4E32;
+  --danger-rgb: 255,78,50;
+  --danger-contrast: #ffffff;
+  --danger-contrast-rgb: 255,255,255;
+  --danger-shade: #e0452c;
+  --danger-tint: #ff6047;
+
+  --dark: #222428;
+  --dark-rgb: 34,36,40;
+  --dark-contrast: #ffffff;
+  --dark-contrast-rgb: 255,255,255;
+  --dark-shade: #1e2023;
+  --dark-tint: #383a3e;
+
+  --medium: #EDF1F7;
+  --medium-rgb: 237,241,247;
+  --medium-contrast: #000000;
+  --medium-contrast-rgb: 0,0,0;
+  --medium-shade: #d1d4d9;
+  --medium-tint: #eff2f8;
+
+  --light: #F9F9F9;
+  --light-rgb: 249,249,249;
+  --light-contrast: #000000;
+  --light-contrast-rgb: 0,0,0;
+  --light-shade: #dbdbdb;
+  --light-tint: #fafafa;
+
+  --button-gost-hover: #F7F9FC;
+  --button-disabled: #8F9BB3;
+
+
+  --white: #FFFFFF;
+  --transparent: 0.4;
+}

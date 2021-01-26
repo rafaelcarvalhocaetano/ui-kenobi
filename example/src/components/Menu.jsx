@@ -8,9 +8,9 @@ const Menu = () => (
   <aside className="Menu">
     <nav>
       <ul>
-        <li>
+        {/* <li>
           <Link to="/">Dashboard</Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/buttons">Buttons</Link>
         </li>

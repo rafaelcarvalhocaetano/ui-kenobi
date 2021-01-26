@@ -1,0 +1,27 @@
+@mixin effect_button($primary_color: var(--primary), $font_color: var(--white),  $color_active: var(--primary-active-button), $color_hover: var(--primary-hover-button)) {
+  background-color: $primary_color;
+  color: $font_color;
+  background-position: center;
+  transition: background 0.8s;
+  &:focus {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+  }
+  &:focus-within {
+    border: none;
+  }
+  &:hover {
+    cursor: pointer;
+    background: $color_hover radial-gradient(circle, transparent 1%, $color_hover 1%) center/15000%;
+  }
+  &:active {
+    background-color: $color_active;
+    background-size: 100%;
+    transition: background 0s;
+  }
+
+  &:disabled {
+    background-color: var(--button-disabled);
+    cursor: not-allowed;
+    color: var(--medium);
+  }
+}

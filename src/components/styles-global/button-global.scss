@@ -1,0 +1,17 @@
+@import './colors.scss';
+@import './reset.scss';
+
+.btn {
+  height: 40px;
+  width: 118px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}

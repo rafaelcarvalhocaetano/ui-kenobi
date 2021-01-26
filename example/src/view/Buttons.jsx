@@ -1,8 +1,13 @@
 import React from 'react';
 
+import { Buttonfill } from 'uikenobi';
+
 const Buttons = () => {
   return (
-    <h1>Buttons</h1>
+    <div>
+      <Buttonfill fill disabled />
+      <Buttonfill gost disabled />
+    </div>
   )
 }
 

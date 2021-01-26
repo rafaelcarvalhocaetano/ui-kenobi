@@ -1,0 +1,19 @@
+@import './button-global.scss';
+@import './button-mixin.scss';
+
+.fill {
+  @include effect_button(
+    $primary_color: var(--primary),
+    $font_color: var(--white),
+    $color_active: var(--primary-active-button),
+    $color_hover: var(--primary-hover-button)
+  );
+}
+.gost {
+  @include effect_button(
+    $primary_color: transparent,
+    $font_color: var(--primary),
+    $color_hover: var(--button-gost-hover),
+    $color_active: var(--medium),
+  );
+}
