@@ -1,1 +1,2 @@
-export { default as Buttonfill } from './components/Buttons/buttonfill/index';
+export { default as Button } from './components/Buttons/button/index';
+export { default as ButtonIcon } from './components/Buttons/buttonIcon/index';
