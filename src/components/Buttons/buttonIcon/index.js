@@ -1,21 +1,19 @@
 import React from 'react';
 
-import pathimage from '../../../icons/logo.svg';
-import '../../styles-global/button-global.scss';
+import '../../styles-global/button-style/button.scss';
 
 
-import { colorTheme, sizedButton } from '../actions'
-
+import { colorTheme, sizedButton } from '../actions';
 
 const ButtonIcon = (props) => {
 
   const  showIcon = ({ icon }) => {
-    return (
-      <img src={pathimage} alt={icon}/>
-    )
+    let path = icon ? icon : 'logo';
+    const local = `../../icons/logo.svg`;
+    return (<img src={local} alt={path}/>)
   }
 
-  const validateIcon = ({ icon, title }) => (icon && !title) ? 'show_icon' : ''
+  const validateIcon = ({ title }) => !title || title === undefined ? 'notitle' : '';
 
   return (
     <button className={`btn icon ${colorTheme(props)} ${sizedButton(props)} ${validateIcon(props)}`} disabled={props && props.disabled}>

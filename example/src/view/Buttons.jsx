@@ -23,20 +23,24 @@ const Buttons = () => {
       </div>
 
       <div className="row">
-        <ButtonIcon  fill giant title="Gost" />
-        <ButtonIcon  fill large title="Gost" />
-        <ButtonIcon  fill medium title="Gost" />
-        <ButtonIcon  fill small title="Gost" />
-        <ButtonIcon  fill tiny title="Gost" />
+        <ButtonIcon  fill giant title="Gost" icon="logo" />
+        <ButtonIcon  fill large title="Gost" icon="logo" />
+        <ButtonIcon  fill medium title="Gost" icon="logo" />
+        <ButtonIcon  fill small title="Gost" icon="logo" />
+        <ButtonIcon  fill tiny title="Gost" icon="logo" />
       </div>
 
       <div className="row">
-        <ButtonIcon  gost giant title="Gost" />
-        <ButtonIcon  gost large title="Gost" />
-        <ButtonIcon  gost medium title="Gost" />
-        <ButtonIcon  gost small title="Gost" />
-        <ButtonIcon  gost tiny title="Gost" />
-        <ButtonIcon  gost />
+        <ButtonIcon  gost giant title="Gost" icon="logo" />
+        <ButtonIcon  gost large title="Gost" icon="logo" />
+        <ButtonIcon  gost medium title="Gost" icon="logo" />
+        <ButtonIcon  gost small title="Gost" icon="logo" />
+        <ButtonIcon  gost tiny title="Gost" icon="logo" />
+      </div>
+
+      <div className="row">
+        <ButtonIcon  fill icon="logo" />
+        <ButtonIcon  gost icon="logo" />
       </div>
 
     </div>

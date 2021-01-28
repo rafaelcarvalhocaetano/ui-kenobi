@@ -1,5 +1,5 @@
-@import './colors.scss';
-@import './reset.scss';
+@import '../colors.scss';
+@import '../reset.scss';
 
 @import './button-mixin.scss';
 
@@ -13,11 +13,9 @@
   text-align: center;
   text-transform: uppercase;
   border: none;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   &:focus {
     outline: none;
   }
@@ -28,14 +26,19 @@
     @extend %place_gost;
   }
   &.icon {
-    &.show_icon {
-      width: 40px;
-    }
     &.fill {
       @extend %place_fill;
     }
     &.gost {
       @extend %place_gost;
+    }
+    &.notitle {
+      width: 40px;
+      height: 40px;
+      img {
+        width: 25px;
+        height: 25px;
+      }
     }
   }
 }
