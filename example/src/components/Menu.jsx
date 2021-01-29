@@ -14,6 +14,9 @@ const Menu = () => (
         <li>
           <Link to="/buttons">Buttons</Link>
         </li>
+        <li>
+          <Link to="/dialog">Dialog</Link>
+        </li>
       </ul>
     </nav>
   </aside>
