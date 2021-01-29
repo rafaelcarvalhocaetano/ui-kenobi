@@ -25,25 +25,76 @@
     justify-content: space-between;
 
 
+
     .dialog-header {
       height: 56px;
       background: rgba(224, 224, 224, 0.5);
       border-radius: 12px 12px 0px 0px;
-
+      padding: 0 16px;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      h3 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 138%;
+        letter-spacing: 0.0075em;
+      }
+      .btn-close {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:focus {
+          outline: none;
+        }
+      }
     }
 
 
     .dialog-body {
+      width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: center;
-
-      .dialog-body-description {
-        width: 320px;
+      box-sizing: border-box;
+      padding: 0 16px;
+      .icon-notification {
+        width: 88px;
+        height: 88px;
+        border: 2px solid #C0C0C0;
+        border-radius: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        img {
+          width: 40px;
+          height: 40px;
+        }
       }
+      .dialog-body-description {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        .dialog-description-title {
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 132%;
+          color: #414141;
+        }
+        .dialog-description-notification {
+          font-size: 14px;
+          line-height: 150%;
+          letter-spacing: 0.0168em;
+          font-feature-settings: 'tnum' on, 'lnum' on;
+        }
+      }
+
     }
 
 

@@ -3,7 +3,8 @@ import React from 'react';
 import '../styles-global/dialog_style/dialog.scss';
 
 import Button from '../Buttons/button';
-import ButtonIcon from '../Buttons/buttonIcon';
+
+import close from '../../icons/i_close.svg';
 
 
 const Dialog = () => {
@@ -13,16 +14,15 @@ const Dialog = () => {
 
         <div className="dialog-header">
           <h3>Dialog default</h3>
-          {/* <button className="btn-close">
-            <img src={'../../icons/close.svg'} alt="Close"/>
-          </button> */}
-          <ButtonIcon gost />
+          <button className="btn-close">
+            <img src={close} alt="Close"/>
+          </button>
         </div>
 
 
         <div className="dialog-body">
           <div className="icon-notification">
-            <img src={'../../icons/alert.svg'} alt="Alert"/>
+            <img src={close} alt="Alert"/>
           </div>
           <div className="dialog-body-description">
             <h1 className="dialog-description-title">Tip of the day</h1>
@@ -33,14 +33,12 @@ const Dialog = () => {
         </div>
 
         <div className="dialog-footer">
-          {/* <button className="dialog-close">
+          <button className="dialog-close">
             Secondary
-          </button> */}
-          <Button gost title="Cancel" />
-          <Button fill title="Save"/>
-          {/* <button className="dialog-confirmation">
+          </button>
+          <button className="dialog-confirmation">
             Primary Action
-          </button> */}
+          </button>
         </div>
       </div>
       <div className="backdrop"></div>
