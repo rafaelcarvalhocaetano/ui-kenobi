@@ -16,7 +16,6 @@ npm install --save uikenobe
 import React, { Component } from 'react'
 
 import MyComponent from 'uikenobe'
-import 'uikenobe/dist/index.css'
 
 class Example extends Component {
   render() {
